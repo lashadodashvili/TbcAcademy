@@ -15,22 +15,20 @@ Plain CSS is used for styling to maintain simplicity and control over the applic
 Running the Project
 To run this project:
 
-Clone the repository:
-bash
-Copy code
+## Clone the repository:
+
 git clone https://github.com/lashadodashvili/TbcAcademy.git
 Navigate to the project directory:
-bash
-Copy code
-cd TbcAcademy
+
+ ## cd TbcAcademy
 Install dependencies:
-bash
-Copy code
-npm install
+
+
+## npm install
 Start the application:
-bash
-Copy code
-npm start
+
+
+ ## npm start
 
 ## Available Scripts
 
