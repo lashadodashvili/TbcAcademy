@@ -1,0 +1,71 @@
+.card-container {
+  display: flex;
+  flex-direction: column;
+  border-radius: 6px;
+  border: 1px solid #555555; /* Combine border-width, border-style, and border-color */
+  height: 414px;
+  /* This ensures that the border is not covered by the image. */
+}
+.card-detail-container {
+  padding: 34px 0 22px 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+.card-detail-container-title {
+  font-size: 18px;
+  line-height: 28px;
+  padding-bottom: 24px;
+}
+.card-detail-container-status {
+  font-size: 14px;
+  line-height: 20px;
+  padding-bottom: 200;
+}
+.card-container img {
+  width: 100%;
+  height: auto;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+.card-button-container {
+  display: flex;
+  align-items: center;
+}
+.card-button-container button {
+  background-color: transparent;
+  color: #00aeef;
+  font-weight: 500;
+  transition-duration: 300ms;
+  cursor: pointer;
+  margin-left: 12px;
+}
+.card-button-container button:hover {
+  opacity: 0.6;
+}
+.card-button-container img {
+  width: 16px;
+  height: 13px;
+}
+@media (max-width: 769px) {
+  .card-container {
+    height: auto;
+  }
+  .card-detail-container {
+    padding: 30px 0 0px 20px;
+    justify-content: normal;
+  }
+  .card-detail-container-status {
+    padding-bottom: 20px;
+    font-size: 20px;
+  }
+  .card-detail-container-title {
+    padding-bottom: 15px;
+    font-size: 20px;
+  }
+  .card-button-container {
+    padding-bottom: 35px;
+    font-size: 20px;
+  }
+}

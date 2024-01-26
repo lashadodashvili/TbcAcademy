@@ -1,0 +1,26 @@
+.header {
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  width: 100%;
+  transition: top 0.2s;
+}
+.transparent-nav-bg {
+  background-color: #222222f2;
+}
+.bg-transparent {
+  background-color: transparent;
+}
+.nav-bg {
+  background-color: #1a1e1f;
+  height: 84px;
+}
+@media (max-width: 769px) {
+  .hide-header {
+    top: -100%; /* Adjust as needed */
+  }
+
+  .show-header {
+    top: 0;
+  }
+}

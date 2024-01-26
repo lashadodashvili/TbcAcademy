@@ -1,0 +1,81 @@
+.footer {
+  background-color: #1a1e1f;
+  display: flex;
+  justify-content: space-between;
+}
+.footer h2,
+p {
+  font-size: 14px;
+  line-height: 20px;
+}
+.footer p {
+  padding: 15px 0 43px 0;
+}
+
+.tbc-logo {
+  width: 106px;
+  height: 30px;
+  object-fit: cover;
+  object-position: 50% 50%;
+  padding: 64px 0 27px 0;
+}
+.terms-and-conditions:hover {
+  opacity: 0.4;
+  transition-duration: 300ms;
+  cursor: pointer;
+}
+.social-media {
+  text-align: right;
+  padding: 64px 0 18px 0;
+  cursor: pointer;
+}
+.social-media img {
+  margin-right: 10px;
+}
+.footer button {
+  background-color: #00aef3;
+  border-radius: 6px;
+  cursor: pointer;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+  padding: 10px 35px;
+  margin-top: 10px;
+  transition-duration: 400ms;
+}
+.footer button:hover {
+  background-color: #d5d5d5;
+  color: #353131;
+}
+@media (max-width: 769px) {
+  .tbc-logo {
+    padding: 38px 0 38px 0;
+    width: 106px;
+    height: 30px;
+  }
+  .button-socialMedia-container-mobile {
+    display: flex;
+    align-items: center;
+
+    padding-bottom: 35px;
+  }
+  .footer button {
+    margin-top: 0px;
+    font-size: 20px;
+  }
+  .button-socialMedia-container-mobile img {
+    margin-left: 10px;
+  }
+  .social-media-container-mobile {
+    margin-left: 50px;
+  }
+  .footer {
+    padding-left: 37px;
+  }
+  .footer h2 {
+    font-size: 20px;
+    padding: 0px 0 43px 0;
+  }
+  .footer p {
+    padding: 0px 0 10px 0;
+    font-size: 20px;
+  }
+}

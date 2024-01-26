@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  color: #f4f4f4;
+}
+html {
+  margin: 0;
+  padding: 0;
+}
+body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  overflow: auto;
+}
+.custom-padding-right {
+  padding-right: calc((100% - 980px) * 0.5);
+}
+.custom-padding-left {
+  padding-left: calc((100% - 980px) * 0.5);
+}
+
+.banner-text-left {
+  left: calc((100% - 980px) * 0.5);
+}
+.description-blue-button {
+  color: #00aeef;
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  padding-bottom: 57px;
+}
+.description-blue-button:hover {
+  color: #aaaaaa;
+  transition-duration: 300ms;
+}
+.faq-blue-button-desktop {
+  color: #00aeef;
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+.faq-blue-button-desktop:hover {
+  color: #aaaaaa;
+  transition-duration: 300ms;
+}
+.faq-blue-button-mobile {
+  display: flex;
+  color: #00aeef;
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+.faq-blue-button-mobile:hover {
+  color: #aaaaaa;
+  transition-duration: 300ms;
+}
+.banner-section {
+  background-color: #2b2b2b;
+}
+.course-description-section {
+  background-color: #2b2b2b;
+}
+.course-description-container {
+  padding: 56px 0 43px 0;
+}
+.course-description-container p {
+  font-size: 28px;
+  font-weight: 300;
+  line-height: 1.6em;
+}
+.course-cards-section {
+  background-color: #161616;
+  padding-bottom: 64px;
+}
+.course-cards-container {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 3fr));
+  column-gap: 36px;
+  row-gap: 24px;
+}
+
+.course-cards-section h6 {
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 200;
+}
+.carousel-section {
+  background-color: #2b2b2b;
+  padding-bottom: 70px;
+}
+.carousel-section h6 {
+  padding: 34px 0 30px 0;
+  font-size: 24px;
+  line-height: 32px;
+  padding-right: calc((100% - 980px) * 0.5);
+  padding-left: calc((100% - 980px) * 0.5);
+}
+
+.faq-section {
+  background-color: #161616;
+  padding-top: 75px;
+  padding-bottom: 45px;
+}
+.faq-container {
+  padding: 30px 40px;
+  display: flex;
+  flex-direction: column;
+}
+.faq-title-container {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 25px;
+}
+.faq-title-container h2 {
+  font-size: 24px;
+}
