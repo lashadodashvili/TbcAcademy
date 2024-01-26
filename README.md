@@ -2,14 +2,14 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 ### Project Structur
-src/components/ - Contains all the reusable components of the application. Each component has its own style.css file named after the component.
-src/Pages/ - Contains all the pages of the application.
-src/App.js - The main component that encapsulates all other components.
-src/index.js - The entry point for the application. Renders the App component.
-src/utils/data.js - Houses dumb data used throughout the project.
-src/utils/menu.js - Provides the menu for navigation.
-src/style/Global.js - Contains global styles as well as specific styles for pages.
-src/style/Mobile.js - Includes styles for responsive design, catering to mobile devices.
+# src/components/ - Contains all the reusable components of the application. Each component has its own style.css file named after the component.
+# src/Pages/ - Contains all the pages of the application.
+# src/App.js - The main component that encapsulates all other components. 
+# src/index.js - The entry point for the application. Renders the App component.
+# src/utils/data.js - Houses dumb data used throughout the project.
+# src/utils/menu.js - Provides the menu for navigation.
+# src/style/Global.js - Contains global styles as well as specific styles for pages.
+# src/style/Mobile.js - Includes styles for responsive design, catering to mobile devices.
 
 
 
